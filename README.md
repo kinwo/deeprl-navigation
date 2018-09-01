@@ -4,12 +4,12 @@
 This repository contains a simple Deep Q-Network (DQN) agent running in Unity ML Agent that can be used to train
 and evaluate the result of the training.
 
-I created this for the purpose of learning the basic of creating Deep Q-Network (DQN).
+I created this for the purpose of learning the basic of Deep Q-Network (DQN).
 
 The DQN is implemented in Python 3 using PyTorch.
 
 ### Environment
-The agent will naviate in a 3D world created in Unity ML where there are yellow bananas and blue bananas.
+The agent will navigate in a 3D world created in Unity ML where there are yellow bananas and blue bananas.
 
 ### Goal
 The goal is to train an DQN agent to navigate and collect as many yellow bananas as possible in a large, square world.
