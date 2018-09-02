@@ -46,10 +46,12 @@ https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md
     - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
     - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
-Then unzip the file and place the file this folder.
+Then unzip the file and place the file in this folder.
 
-3. Create Conda Environment
+3. Create Conda Environment   
+
 Install conda from conda.io. Create a new Conda environment with Python 3.6.
+
 ```bash
 conda create --name deeprl python=3.6
 source activate deeprl
@@ -63,10 +65,11 @@ pip install .
 
 
 ## How to run the agent
-To start training, simply open Navigation.ipynb in Jupyter Notebook and follow the instructions there:
+To start training, simply open *Navigation.ipynb* in Jupyter Notebook and follow the instructions there:
 
 Start Jupyter Notebook
 ```bash
 jupyter notebook
 ```
 Trained model weights is included for quickly running the agent and see the result in Unity ML Agent.
+Simply skip the training step and run the last step of the *Navigation.ipynb*
