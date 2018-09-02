@@ -1,4 +1,4 @@
-# Deep Reinforcement Learning on Navigation
+# Deep Reinforcement Learning DQN on Unity ML Agent
 
 ## Introduction
 This repository contains a simple Deep Q-Network (DQN) agent running in Unity ML Agent that can be used to train
